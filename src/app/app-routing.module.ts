@@ -4,7 +4,7 @@ import { WorkComponent } from '../app/work/work.component';
 import { HomeComponent } from '../app/home/home.component';
 
 const routes: Routes = [
-  { path: '/work', component: WorkComponent }, {path: "/home", component: HomeComponent},{ path: '', redirectTo: '/home', pathMatch: 'full' },
+  { path: 'ArthRun/work', component: WorkComponent }, {path: "ArthRun/home", component: HomeComponent},{ path: '', redirectTo: 'ArthRun/home', pathMatch: 'full' },
 ];
 
 @NgModule({

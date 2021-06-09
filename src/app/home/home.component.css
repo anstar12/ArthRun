@@ -1,0 +1,30 @@
+.firstdiv{
+    padding: 1%;
+    color: rgb(201, 157, 64);
+    font-family: Quicksand;
+}
+
+.u1{
+    background: rgba(0, 0, 0, 0.788);
+    border: 0.5px solid rgba(226, 120, 217, 0.788);
+    border-radius: 20px;
+}
+.i1:hover{
+    opacity: 0.4;
+}
+.intro{
+    padding: 1%;
+    font-family: Patua One;
+    background: rgb(255, 192, 203);
+    border-radius: 20px;
+    box-shadow: 5px 10px rgb(74, 50, 75);
+}
+
+.intro:hover{
+    background: rgba(177, 113, 177, 0.658);
+}
+.firstdiv1{
+    padding: 1%;
+    color: rgb(8, 8, 8);
+    font-family: Quicksand;
+}

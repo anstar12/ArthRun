@@ -1,0 +1,87 @@
+<div class="container text-center intro" [@EnterLeave]="'flyIn'">
+    <h2>Introducing ArthRun</h2>
+    <div class="text-start">
+      <p>Our mission is to prepare aspirants for the UPSC Preliminary and Mains and other competitive exams so that they can update themselves with the daily news analysis, facts, information in the field of economics. Founded in 2020, ArthRun has led numerous successful initiatives that have produced real change, in the competitive environment through different activities like weekly updates with a static portion of the topic, quizzes, flow charts, and mind mapping on different hot topics of the week. </p>
+    </div>
+  </div>
+  <div class="container d-flex firstdiv1" style="margin-top: 1%;">
+    <div class="col-lg-12 col-md-12 col-sm-12 d-flex" style="background: rgba(238, 214, 76, 0.651);">
+      <div class="col-lg-4 col-md-4 col-sm-4">
+        <h4>Upcoming Exams</h4>
+        <ol style="margin: 5%;">
+        <a href="https://upsconline.nic.in/mainmenu2.php#" ><li>Exam1</li></a>
+        <a href="https://upsconline.nic.in/mainmenu2.php#" ><li>Exam1</li></a>
+        <a href="http://uppsc.up.nic.in/CandidateHomePage.html" ><li>Exam1</li></a>
+        <a href="https://uprvunl.org/uprvunl/en/news?Newslistslug=uprvunl-en-public-notice" ><li>Exam1</li></a>
+        </ol>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4">
+          <div>
+            <h4>Question of the Day</h4>
+            <form [formGroup]="userForm" (ngSubmit)="onFormSubmit()">
+              <p>Answer this question ?</p>
+              <input type="radio" value="male" formControlName="gender"> Male
+              <input type="radio" value="female" formControlName="gender"> Female
+              <input type = "submit" value = "submit">
+            </form>
+          </div>
+          <p *ngIf="ans1">
+            <ngb-alert type="custom" [dismissible]="true"><strong>Whoa!</strong> Correct ans.</ngb-alert>
+          </p>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4">
+          <div class="d-flex">
+            <img src="/assets/outline_article_black_24dp.png">
+            <h4>Mock Test Registration</h4>
+          </div>
+          <p>Quiz covered The Hindu, PIB facts,Times of India
+            for Current Affairs</p>
+          <span>To Register <a href="https://docs.google.com/forms/d/e/1FAIpQLScnnOMnMr5h8XziRRHHNa7tmbcGyuPsy-tdxPlESN7xN0_Ttw/viewform" style="font-weight: bold;">Click Here</a></span>
+          
+        </div>
+    </div>
+  </div>
+
+
+<div class="container text-center" style="padding: 1%;font-family: Quicksand;font-weight: bold;">
+  <h2>Highlights</h2>
+</div>
+<div class="container d-flex ">
+  <div class="col-lg-6 col-md-6 col-sm-6 d-flex u1">
+    <div class="col-lg-3 col-md-3 col-sm-3 firstdiv">
+      <a href="https://docs.google.com/document/d/1ZUn2TN1BQxQQ5cN2obvUPVveV-ThkRwGwmkr0DS0TLU/edit"><h4 style="padding: 3%;">Daily News Analysis</h4>
+      <div style="background: rgba(194, 63, 226, 0.432);" height="auto" width="80%">
+      <img src="/assets/DNA.png" height="auto" width="100%" class="i1">
+      </div>
+      </a>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-3 firstdiv">
+    <a href="https://docs.google.com/document/d/1AY_pngRx6v2blFVK-2gKl7p2SvoEkEaHmETpJ8Qufc4/edit"><h4 style="padding: 3%;">Press Information Bureau</h4>
+      <div style="background: rgba(194, 63, 226, 0.432);" height="auto" width="100%">
+      <img src="/assets/PIB.jpg" height="auto" width="100%" class='i1'>
+      </div>
+      </a>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-3 firstdiv">
+      <a href="https://docs.google.com/document/d/1ng4e4mfRuted84RtTatBZE4rF6iyTmnAdT3HKfNmCsI/edit#heading=h.8tohrio83xio"><h4 style="padding: 3%;">Daily Data Analysis</h4>
+      <div style="background: rgba(194, 63, 226, 0.432);" height="auto" width="100%">
+        <img src="/assets/DDA.jpg" height="auto" width="100%" class='i1'>
+        </div>
+        </a>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-3 firstdiv">
+      <a href="https://docs.google.com/document/d/1AUabVDGV9ecY0QWpAx-T8X0SVB7g7HVBYm2ZxFh7YfQ/edit"><h4 style="padding: 3%;">Digi Apps</h4>
+      <div style="background: rgba(194, 63, 226, 0.432);" height="auto" width="100%">
+        <img src="/assets/digi.webp" height="auto" width="100%" class='i1'>
+        </div>
+        </a>
+    </div>
+  </div>
+  <div class="col-lg-1 col-md-1 col-sm-1"></div>
+  <div class="col-lg-5 col-md-5 col-sm-5 u1 firstdiv">
+    <h3>Quizzes</h3>
+    <ol style="margin: 5%;">
+      <li>PIB News Quiz <a href="https://docs.google.com/forms/d/e/1FAIpQLSfR6dJO-sfh00UB5BC1GDILwNCWf-aIV5EVG6GnV2CU3f0JWA/viewform">Click Here</a></li>
+    </ol>
+  </div>
+</div>
